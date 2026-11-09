@@ -1,0 +1,8 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/template_leaf_litter_1",
+  "textures": {
+    "texture": "dontstravemc:block/birch_leaf_litter",
+    "particle": "dontstravemc:block/birch_leaf_litter"
+  }
+}

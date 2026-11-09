@@ -1,0 +1,16 @@
+{
+  "values": {
+    "dontstravemc:spoiled_food": { "burn_time": 300 },
+    "dontstravemc:twigs": { "burn_time": 300 },
+    "dontstravemc:cut_grass": { "burn_time": 300 },
+    "dontstravemc:pinecone": { "burn_time": 300 },
+    "dontstravemc:rope": { "burn_time": 1500 },
+    "dontstravemc:nightmarefuel": { "burn_time": 3600 },
+    "dontstravemc:grass_waxed": { "burn_time": 3600 },
+    "dontstravemc:grass": { "burn_time": 3600 },
+    "dontstravemc:berry_bush": { "burn_time": 3600 },
+    "dontstravemc:berry_bush_waxed": { "burn_time": 3600 },
+    "dontstravemc:berry_bush_2": { "burn_time": 3600 },
+    "dontstravemc:berry_bush_2_waxed": { "burn_time": 3600 }
+  }
+}

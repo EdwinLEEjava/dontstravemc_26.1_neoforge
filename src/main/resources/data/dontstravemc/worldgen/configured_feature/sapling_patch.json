@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "dontstravemc:sapling",
+                "Properties": {
+                  "harvested": "false"
+                }
+              }
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 3
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -12,
+              "max_inclusive": 12
+            },
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 0,
+              "max_inclusive": 0
+            }
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "dontstravemc:constant_grass_block",
+                    "minecraft:grass_block",
+                    "minecraft:dirt"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

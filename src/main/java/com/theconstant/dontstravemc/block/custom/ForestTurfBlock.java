@@ -1,0 +1,46 @@
+package com.theconstant.dontstravemc.block.custom;
+
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SnowLayerBlock;
+import net.minecraft.world.level.block.SnowyBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.lighting.LightEngine;
+
+public class ForestTurfBlock extends SnowyBlock {
+
+    public ForestTurfBlock(BlockBehaviour.Properties properties) {
+        super(properties);
+    }
+
+    private static boolean canBeForestTurf(BlockState state, LevelReader level, BlockPos pos) {
+        BlockPos blockPos = pos.above();
+        BlockState blockState = level.getBlockState(blockPos);
+        if (blockState.is(Blocks.SNOW) && blockState.getValue(SnowLayerBlock.LAYERS) == 1) {
+            return true;
+        } else if (blockState.getFluidState().getAmount() == 8) {
+            return false;
+        } else {
+            int i = LightEngine.getLightBlockInto(state, blockState, Direction.UP, blockState.getLightDampening());
+            return i < 15;
+        }
+    }
+
+    @Override
+    protected void randomTick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
+        if (!canBeForestTurf(state, level, pos)) {
+            level.setBlockAndUpdate(pos, Blocks.DIRT.defaultBlockState());
+        } else {
+            BlockState above = level.getBlockState(pos.above());
+            boolean isSnowy = above.is(Blocks.SNOW);
+            if (state.getValue(SNOWY) != isSnowy) {
+                level.setBlockAndUpdate(pos, state.setValue(SNOWY, isSnowy));
+            }
+        }
+    }
+}

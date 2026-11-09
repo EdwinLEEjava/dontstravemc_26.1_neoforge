@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "dontstravemc:birch_tree_short_red"
+      },
+      {
+        "chance": 0.5714286,
+        "feature": "dontstravemc:birch_tree_medium_red"
+      }
+    ],
+    "default": "dontstravemc:birch_tree_tall_red"
+  }
+}

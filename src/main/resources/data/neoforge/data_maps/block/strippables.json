@@ -1,0 +1,6 @@
+{
+  "values": {
+    "dontstravemc:evergreen_log": { "stripped_block": "dontstravemc:stripped_evergreen_log" },
+    "dontstravemc:evergreen_wood": { "stripped_block": "dontstravemc:stripped_evergreen_wood" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dontstravemc:constant_grass_block",
+    "dontstravemc:marsh_turf",
+    "dontstravemc:turf_desert",
+    "dontstravemc:turf_mud"
+  ]
+}

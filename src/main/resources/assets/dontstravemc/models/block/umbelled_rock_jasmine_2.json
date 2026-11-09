@@ -1,0 +1,8 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/flowerbed_2",
+  "textures": {
+    "flowerbed": "dontstravemc:block/umbelled_rock_jasmine_petals",
+    "stem": "dontstravemc:block/umbelled_rock_jasmine_stem"
+  }
+}

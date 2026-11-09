@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dontstravemc:block/butter"
+    },
+    "facing=south": {
+      "model": "dontstravemc:block/butter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dontstravemc:block/butter",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "dontstravemc:block/butter",
+      "y": 90
+    }
+  }
+}

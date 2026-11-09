@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dontstravemc:monster_meat",
+    "dontstravemc:cooked_monster_meat",
+    "dontstravemc:monster_meat_jerky"
+  ]
+}

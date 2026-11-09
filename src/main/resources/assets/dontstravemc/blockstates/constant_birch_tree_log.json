@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "axis=y": [
+      { "model": "dontstravemc:block/constant_birch_tree_log_0", "weight": 1 },
+      { "model": "dontstravemc:block/constant_birch_tree_log_1", "weight": 1 },
+      { "model": "dontstravemc:block/constant_birch_tree_log_2", "weight": 1 },
+      { "model": "dontstravemc:block/constant_birch_tree_log_3", "weight": 1 }
+    ],
+    "axis=z": [
+      { "model": "dontstravemc:block/constant_birch_tree_log_0", "x": 90, "weight": 1 },
+      { "model": "dontstravemc:block/constant_birch_tree_log_1", "x": 90, "weight": 1 },
+      { "model": "dontstravemc:block/constant_birch_tree_log_2", "x": 90, "weight": 1 },
+      { "model": "dontstravemc:block/constant_birch_tree_log_3", "x": 90, "weight": 1 }
+    ],
+    "axis=x": [
+      { "model": "dontstravemc:block/constant_birch_tree_log_0", "x": 90, "y": 90, "weight": 1 },
+      { "model": "dontstravemc:block/constant_birch_tree_log_1", "x": 90, "y": 90, "weight": 1 },
+      { "model": "dontstravemc:block/constant_birch_tree_log_2", "x": 90, "y": 90, "weight": 1 },
+      { "model": "dontstravemc:block/constant_birch_tree_log_3", "x": 90, "y": 90, "weight": 1 }
+    ]
+  }
+}

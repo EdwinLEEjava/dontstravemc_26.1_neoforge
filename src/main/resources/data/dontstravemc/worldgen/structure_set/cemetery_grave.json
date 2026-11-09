@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "dontstravemc:cemetery_grave",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 18,
+    "salt": 91827364,
+    "spread_type": "linear"
+  }
+}

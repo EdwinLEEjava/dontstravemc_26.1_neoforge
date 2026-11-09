@@ -1,0 +1,16 @@
+{
+  "type": "dontstravemc:the_caves",
+  "generator": {
+    "type": "dontstravemc:caves",
+    "settings": "dontstravemc:the_caves",
+    "biome_source": {
+      "type": "dontstravemc:caves",
+      "biomes": [
+        "dontstravemc:rocky_caves",
+        "dontstravemc:spider_caves",
+        "dontstravemc:bird_caves",
+        "dontstravemc:muddy_caves"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+name: 功能建议
+description: 建议新内容或改进
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 建议内容
+      description: 想加入什么？可以参考饥荒中的对应内容
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 理由 / 参考资料

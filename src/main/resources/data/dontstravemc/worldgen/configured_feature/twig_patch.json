@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "dontstravemc:twig",
+                    "Properties": {
+                      "facing": "north"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "dontstravemc:twig",
+                    "Properties": {
+                      "facing": "south"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "dontstravemc:twig",
+                    "Properties": {
+                      "facing": "east"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "dontstravemc:twig",
+                    "Properties": {
+                      "facing": "west"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 5
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -12,
+              "max_inclusive": 12
+            },
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 0,
+              "max_inclusive": 0
+            }
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "dontstravemc:constant_grass_block",
+                    "dontstravemc:turf_rocky",
+                    "minecraft:grass_block",
+                    "minecraft:dirt"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

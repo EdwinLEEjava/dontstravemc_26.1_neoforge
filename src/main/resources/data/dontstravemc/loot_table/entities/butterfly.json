@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dontstravemc:butterfly_wings",
+          "weight": 98
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dontstravemc:butter",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

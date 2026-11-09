@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dontstravemc:block/underrock_top",
+    "side": "dontstravemc:block/underrock_side"
+  }
+}

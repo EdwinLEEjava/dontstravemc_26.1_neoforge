@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "ripe=false": { "model": "dontstravemc:block/berry_bush_2" },
+    "ripe=true":  { "model": "dontstravemc:block/berry_bush_2_stage3" }
+  }
+}

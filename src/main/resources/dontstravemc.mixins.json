@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "com.theconstant.dontstravemc.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LivingEntityFoliageArmorMixin",
+    "WorldGenRegionProximityLanternMixin"
+  ],
+  "client": [
+    "client.BedRendererMixin",
+    "client.BedRenderStateMixin",
+    "client.EquipmentWearDurabilityBarMixin",
+    "client.GuiMixin",
+    "client.LightTextureMixin",
+    "client.MinecraftMusicMixin",
+    "client.MixinPostPass",
+    "client.MultiPlayerGameModeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

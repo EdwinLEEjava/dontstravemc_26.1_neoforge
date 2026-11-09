@@ -1,0 +1,50 @@
+{
+  "carvers": [],
+  "downfall": 0.6,
+  "effects": {
+    "fog_color": 12111776,
+    "music_volume": 1.0,
+    "sky_color": 9486552,
+    "water_color": 3894484,
+    "water_fog_color": 662074,
+    "grass_color": "#826e26",
+    "foliage_color": 16115266
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "dontstravemc:birch_leaf_litter",
+      "dontstravemc:birch_tree_placed",
+      "dontstravemc:boulder_patch_placed",
+      "dontstravemc:twig_patch_placed",
+      "dontstravemc:grass_patch_placed",
+      "dontstravemc:constant_grass_patch_placed",
+      "dontstravemc:sapling_patch_placed",
+      "dontstravemc:berry_bush_patch_placed",
+      "dontstravemc:flint_patch_placed",
+      "dontstravemc:birch_forest_wildflowers_placed"
+    ],
+    []
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.6
+}

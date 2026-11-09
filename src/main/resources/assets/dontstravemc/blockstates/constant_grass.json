@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "":{
+      "model": "dontstravemc:block/constant_grass"
+    }
+
+  }
+}

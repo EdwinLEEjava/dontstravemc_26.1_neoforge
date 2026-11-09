@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "dontstravemc:shadow_rift_surface",
+      "weight": 1
+    },
+    {
+      "structure": "dontstravemc:shadow_rift_underground",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 12,
+    "salt": 1739258461,
+    "spread_type": "linear"
+  }
+}

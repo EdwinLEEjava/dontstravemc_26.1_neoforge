@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "dontstravemc:pigman_village_evergreen",
+      "weight": 1
+    },
+    {
+      "structure": "dontstravemc:pigman_village_birch",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 18,
+    "salt": 42881701,
+    "spread_type": "linear"
+  }
+}

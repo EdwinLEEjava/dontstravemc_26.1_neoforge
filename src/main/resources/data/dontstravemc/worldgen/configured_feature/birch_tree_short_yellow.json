@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 2
+    },
+    "trunk_provider": {
+      "type": "minecraft:randomized_int_state_provider",
+      "source": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "dontstravemc:constant_birch_tree_log"
+        }
+      },
+      "property": "variant",
+      "values": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0,
+        "max_inclusive": 2
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "dontstravemc:constant_birch_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false",
+          "hue": "yellow"
+        }
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "offset": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0,
+        "max_inclusive": 1
+      },
+      "height": 4
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 5,
+      "height_rand_a": 1,
+      "height_rand_b": 0
+    },
+    "decorators": [],
+    "ignore_vines": true,
+    "below_trunk_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:cannot_replace_below_tree_trunk"
+            }
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dirt"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

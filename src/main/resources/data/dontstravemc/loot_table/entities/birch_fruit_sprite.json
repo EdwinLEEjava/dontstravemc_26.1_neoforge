@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dontstravemc:twigs",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        }
+      ]
+    }
+  ]
+}

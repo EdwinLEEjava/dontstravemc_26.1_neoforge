@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "dontstravemc:block/turf_mud" },
+      { "model": "dontstravemc:block/turf_mud", "y": 90 },
+      { "model": "dontstravemc:block/turf_mud", "y": 180 },
+      { "model": "dontstravemc:block/turf_mud", "y": 270 }
+    ]
+  }
+}

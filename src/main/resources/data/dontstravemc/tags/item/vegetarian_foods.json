@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dontstravemc:berries",
+    "dontstravemc:cooked_berries",
+    "dontstravemc:petals",
+    "dontstravemc:evil_petals"
+  ]
+}

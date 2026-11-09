@@ -1,0 +1,21 @@
+---
+description: 写方块、物品、实体或资源，或查询 Minecraft、NeoForge、GeckoLib 时，先读模组技能
+alwaysApply: true
+---
+
+# 模组技能入口
+
+本仓库的模组技能固定为：
+
+`.cursor/skills/mod-content/SKILL.md`
+
+做下面这些事之前，先用 Read 打开该文件并按它执行：
+
+- 新增或修改方块、物品、食物、实体、方块实体、渲染器、事件、Mixin、blockstate、模型、贴图、`items/*.json`、掉落或语言
+- 查询 Minecraft、NeoForge、GeckoLib 的类、注册、事件或渲染
+
+写 Java 时按技能里的「写代码」一节，以及 `.cursor/skills/mod-content/reference-code.md`，改现有注册类。
+
+本地 JAR 的查找步骤写在这个技能里。用 `gradle.properties` 的版本去列举文件，不要写死 JAR 文件名，也不要跟随仓库外的技能路径。
+
+床的资源照合并 JAR 里的原版 `white_bed`，不要照 `pigman_bed`。

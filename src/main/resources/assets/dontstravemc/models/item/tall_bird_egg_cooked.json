@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures":{
+  "layer0": "dontstravemc:item/tall_bird_egg_cooked"
+  }
+}

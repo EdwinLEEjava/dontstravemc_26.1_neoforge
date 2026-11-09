@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cobblestone",
+    "#minecraft:coal_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:gold_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:redstone_ores",
+    "minecraft:stone",
+    "minecraft:deepslate",
+    "dontstravemc:underrock",
+    "dontstravemc:turf_rocky",
+    "dontstravemc:turf_cave_rocky"
+  ]
+}

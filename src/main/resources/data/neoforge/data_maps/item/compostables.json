@@ -1,0 +1,6 @@
+{
+  "values": {
+    "dontstravemc:spoiled_food": { "chance": 0.65 },
+    "dontstravemc:constant_birch_leaves": { "chance": 0.3 }
+  }
+}

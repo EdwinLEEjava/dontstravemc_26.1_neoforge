@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dontstravemc:block/flint"
+    },
+    "facing=south": {
+      "model": "dontstravemc:block/flint",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dontstravemc:block/flint",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "dontstravemc:block/flint",
+      "y": 90
+    }
+  }
+}

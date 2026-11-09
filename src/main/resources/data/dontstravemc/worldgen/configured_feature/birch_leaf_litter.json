@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features":[
+      "dontstravemc:birch_leaf_litter_orange",
+      "dontstravemc:birch_leaf_litter_red",
+      "dontstravemc:birch_leaf_litter_yellow"
+    ]
+  }
+}

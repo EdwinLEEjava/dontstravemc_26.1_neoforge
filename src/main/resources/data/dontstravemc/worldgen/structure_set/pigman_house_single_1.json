@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "dontstravemc:pigman_house_single_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 72,
+    "separation": 40,
+    "salt": 58291403,
+    "spread_type": "linear"
+  }
+}

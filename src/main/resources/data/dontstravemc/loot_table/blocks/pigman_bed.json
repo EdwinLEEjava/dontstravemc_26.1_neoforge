@@ -1,0 +1,30 @@
+﻿{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "dontstravemc:pigman_bed",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "part": "head"
+              }
+            }
+          ],
+          "name": "dontstravemc:pig_skin"
+        }
+      ],
+      "rolls": 2.0
+    }
+  ],
+  "random_sequence": "dontstravemc:blocks/pigman_bed"
+}

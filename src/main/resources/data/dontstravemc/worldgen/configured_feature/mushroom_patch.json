@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config":{
+  "features":[
+    {
+    "chance": 0.3,
+    "feature": "dontstravemc:green_mushroom"
+    },
+    {
+      "chance": 0.66666,
+      "feature": "dontstravemc:blue_mushroom"
+    }
+    ],
+    "default": "dontstravemc:red_mushroom"
+  }
+}

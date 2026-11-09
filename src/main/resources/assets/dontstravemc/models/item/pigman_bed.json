@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_bed",
+  "textures": {
+    "layout0": "dontstravemc:entity/bed/pigman_bed"
+  }
+}

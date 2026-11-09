@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "dontstravemc:radio",
+    "dontstravemc:tombstone_1",
+    "dontstravemc:underrock",
+    "dontstravemc:lantern",
+    "dontstravemc:turf_rocky",
+    "dontstravemc:turf_cave_rocky",
+    "dontstravemc:flint",
+    "dontstravemc:urn",
+    "dontstravemc:shadow_block"
+  ]
+}

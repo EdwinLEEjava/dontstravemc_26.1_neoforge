@@ -1,0 +1,8 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/template_lantern",
+  "textures": {
+    "lantern": "dontstravemc:block/lantern_off",
+    "particle": "dontstravemc:block/lantern_off"
+  }
+}

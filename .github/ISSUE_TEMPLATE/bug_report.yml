@@ -1,0 +1,34 @@
+name: Bug 报告
+description: 报告游戏崩溃或功能异常
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 模组版本
+      placeholder: 例如 0.3.1-26.1
+    validations:
+      required: true
+  - type: input
+    id: neoforge
+    attributes:
+      label: NeoForge 版本
+      placeholder: 例如 26.1.0.19-beta
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述与复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志 / 崩溃报告
+      description: 粘贴 latest.log 或 crash-report，或上传到 mclo.gs 后贴链接
+      render: shell
+  - type: textarea
+    id: mods
+    attributes:
+      label: 其他已安装的模组

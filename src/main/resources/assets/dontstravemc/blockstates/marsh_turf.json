@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "snowy=false": [
+      { "model": "dontstravemc:block/turf_block_marsh" },
+      { "model": "dontstravemc:block/turf_block_marsh", "y": 90 },
+      { "model": "dontstravemc:block/turf_block_marsh", "y": 180 },
+      { "model": "dontstravemc:block/turf_block_marsh", "y": 270 }
+    ],
+    "snowy=true": {
+      "model": "minecraft:block/grass_block_snow"
+    }
+  }
+}

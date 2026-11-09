@@ -1,0 +1,148 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 3,
+                  "data": {
+                    "Name": "dontstravemc:blue_eyed_daisy"
+                  }
+                },
+                {
+                  "weight": 3,
+                  "data": {
+                    "Name": "dontstravemc:camomile"
+                  }
+                },
+                {
+                  "weight": 3,
+                  "data": {
+                    "Name": "dontstravemc:corydalis"
+                  }
+                },
+                {
+                  "weight": 3,
+                  "data": {
+                    "Name": "dontstravemc:daylilies"
+                  }
+                },
+                {
+                  "weight": 3,
+                  "data": {
+                    "Name": "dontstravemc:gardenia"
+                  }
+                },
+                {
+                  "weight": 3,
+                  "data": {
+                    "Name": "dontstravemc:pinwheel_flower"
+                  }
+                },
+                {
+                  "weight": 3,
+                  "data": {
+                    "Name": "dontstravemc:periwinkle"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "dontstravemc:umbelled_rock_jasmine",
+                    "Properties": {
+                      "facing": "north",
+                      "flower_amount": "1"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "dontstravemc:umbelled_rock_jasmine",
+                    "Properties": {
+                      "facing": "north",
+                      "flower_amount": "2"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "dontstravemc:umbelled_rock_jasmine",
+                    "Properties": {
+                      "facing": "north",
+                      "flower_amount": "3"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "dontstravemc:umbelled_rock_jasmine",
+                    "Properties": {
+                      "facing": "north",
+                      "flower_amount": "4"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 3
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -9,
+              "max_inclusive": 9
+            },
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 0,
+              "max_inclusive": 0
+            }
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "dontstravemc:constant_grass_block",
+                    "dontstravemc:marsh_turf",
+                    "minecraft:grass_block",
+                    "minecraft:dirt"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dontstravemc:pigman_village/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "dontstravemc:pigman_village/center/pigking_square",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

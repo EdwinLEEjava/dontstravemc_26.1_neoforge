@@ -1,0 +1,32 @@
+{
+  "type": "dontstravemc:the_constant",
+  "generator": {
+    "type": "dontstravemc:island",
+    "settings": "dontstravemc:the_constant",
+    "biome_source": {
+      "type": "dontstravemc:island",
+      "biomes": [
+        "dontstravemc:ocean",
+        "dontstravemc:deep_ocean",
+        "dontstravemc:beach",
+        "dontstravemc:entry_forest",
+        "dontstravemc:evergreen_forest",
+        "dontstravemc:grassland",
+        "dontstravemc:birch_forest",
+        "dontstravemc:pig_village_forest",
+        "dontstravemc:beefalo_savanna",
+        "dontstravemc:savanna",
+        "dontstravemc:desert",
+        "dontstravemc:rockyland",
+        "dontstravemc:swamp",
+        "dontstravemc:merm_swamp",
+        "dontstravemc:walrus_forest",
+        "dontstravemc:cemetery_forest",
+        "dontstravemc:lunar_forest",
+        "dontstravemc:mandrake_forest",
+        "dontstravemc:meteor_plain",
+        "dontstravemc:pond_forest"
+      ]
+    }
+  }
+}

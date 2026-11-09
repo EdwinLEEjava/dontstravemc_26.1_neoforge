@@ -1,0 +1,18 @@
+{
+  "type": "dontstravemc:shadow_rift",
+  "biomes": "#dontstravemc:has_structure/shadow_rift",
+  "step": "top_layer_modification",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "placement": "underground",
+  "radius": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 5,
+    "max_inclusive": 10
+  },
+  "portal_size": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 1,
+    "max_inclusive": 4
+  }
+}

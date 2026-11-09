@@ -1,0 +1,369 @@
+{
+  "monster_spider_attack": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_attack",
+    "sounds": [
+      { "name": "dontstravemc:monster/spider/spider66_spider_attack_1" },
+      { "name": "dontstravemc:monster/spider/spider67_spider_attack_10" },
+      { "name": "dontstravemc:monster/spider/spider68_spider_attack_11" },
+      { "name": "dontstravemc:monster/spider/spider69_spider_attack_12" },
+      { "name": "dontstravemc:monster/spider/spider70_spider_attack_13" },
+      { "name": "dontstravemc:monster/spider/spider71_spider_attack_14" },
+      { "name": "dontstravemc:monster/spider/spider72_spider_attack_15" },
+      { "name": "dontstravemc:monster/spider/spider73_spider_attack_2" },
+      { "name": "dontstravemc:monster/spider/spider74_spider_attack_3" },
+      { "name": "dontstravemc:monster/spider/spider75_spider_attack_4" },
+      { "name": "dontstravemc:monster/spider/spider76_spider_attack_5" },
+      { "name": "dontstravemc:monster/spider/spider77_spider_attack_6" },
+      { "name": "dontstravemc:monster/spider/spider78_spider_attack_7" },
+      { "name": "dontstravemc:monster/spider/spider79_spider_attack_8" },
+      { "name": "dontstravemc:monster/spider/spider80_spider_attack_9" }
+    ]
+  },
+  "monster_spider_step": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_step",
+    "sounds": [
+      "dontstravemc:monster/spider/spider106_spider_step_1",
+      "dontstravemc:monster/spider/spider107_spider_step_2",
+      "dontstravemc:monster/spider/spider108_spider_step_3",
+      "dontstravemc:monster/spider/spider109_spider_step_4",
+      "dontstravemc:monster/spider/spider110_spider_step_5"
+    ]
+  },
+  "monster_spider_death": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_death",
+    "sounds": [
+      "dontstravemc:monster/spider/spider81_spider_death_1",
+      "dontstravemc:monster/spider/spider82_spider_death_2",
+      "dontstravemc:monster/spider/spider83_spider_death_3"
+    ]
+  },
+  "monster_spider_scream": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_scream",
+    "sounds": [
+      "dontstravemc:monster/spider/spider94_spider_scream_1",
+      "dontstravemc:monster/spider/spider95_spider_scream_2",
+      "dontstravemc:monster/spider/spider96_spider_scream_3",
+      "dontstravemc:monster/spider/spider97_spider_scream_4",
+      "dontstravemc:monster/spider/spider98_spider_scream_5",
+      "dontstravemc:monster/spider/spider99_spider_scream_6",
+      "dontstravemc:monster/spider/spider100_spider_scream_7"
+    ]
+  },
+  "monster_spider_eat": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_eat",
+    "sounds": [
+      "dontstravemc:monster/spider/spider84_spider_eat_1",
+      "dontstravemc:monster/spider/spider85_spider_eat_2",
+      "dontstravemc:monster/spider/spider86_spider_eat_3",
+      "dontstravemc:monster/spider/spider87_spider_eat_4",
+      "dontstravemc:monster/spider/spider88_spider_eat_5",
+      "dontstravemc:monster/spider/spider89_spider_eat_6"
+    ]
+  },
+  "monster_spider_sleeping": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_sleeping",
+    "sounds": [
+      "dontstravemc:monster/spider/spider101_spider_sleeping_1",
+      "dontstravemc:monster/spider/spider102_spider_sleeping_2",
+      "dontstravemc:monster/spider/spider103_spider_sleeping_3",
+      "dontstravemc:monster/spider/spider104_spider_sleeping_4",
+      "dontstravemc:monster/spider/spider105_spider_sleeping_5"
+    ]
+  },
+  "monster_spider_jump": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_jump",
+    "sounds": [
+      "dontstravemc:monster/spider/spider91_spider_jump_1",
+      "dontstravemc:monster/spider/spider92_spider_jump_2",
+      "dontstravemc:monster/spider/spider93_spider_jump_3"
+    ]
+  },
+  "monster_spider_wakeup": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_wakeup",
+    "sounds": [
+      "dontstravemc:monster/spider/spider111_spider_wakeup_1",
+      "dontstravemc:monster/spider/spider112_spider_wakeup_2",
+      "dontstravemc:monster/spider/spider113_spider_wakeup_3"
+    ]
+  },
+  "monster_spider_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_hurt",
+    "sounds": [
+      "dontstravemc:monster/spider/spider127_blood_squirt"
+    ]
+  },
+  "monster_spider_sleep": {
+    "category": "hostile",
+    "subtitle": "subtitle.dontstravemc.monster_spider_sleep",
+    "sounds": [
+      "dontstravemc:monster/spider/spider90_spider_fallasleep_1"
+    ]
+  },
+  "music_dusk_gonecrazier": {
+    "category": "players",
+    "sounds": [
+      { "name": "dontstravemc:status/sanity/music_dusk_gonecrazier", "stream": true }
+    ]
+  },
+  "sanity_loop1": {
+    "category": "players",
+    "sounds": [
+      { "name": "dontstravemc:status/sanity_insane/sanity_loop1", "stream": true }
+    ]
+  },
+  "sanity_loop2": {
+    "category": "players",
+    "sounds": [
+      { "name": "dontstravemc:status/sanity_insane/sanity_loop2", "stream": true }
+    ]
+  },
+  "sanity_random": {
+    "category": "players",
+    "sounds": [
+      "dontstravemc:status/sanity_insane/sanity_random_1",
+      "dontstravemc:status/sanity_insane/sanity_random_2",
+      "dontstravemc:status/sanity_insane/sanity_random_3",
+      "dontstravemc:status/sanity_insane/sanity_random_4",
+      "dontstravemc:status/sanity_insane/sanity_random_5",
+      "dontstravemc:status/sanity_insane/sanity_random_6",
+      "dontstravemc:status/sanity_insane/sanity_random_7",
+      "dontstravemc:status/sanity_insane/sanity_random_8",
+      "dontstravemc:status/sanity_insane/sanity_random_9",
+      "dontstravemc:status/sanity_insane/sanity_random_10",
+      "dontstravemc:status/sanity_insane/sanity_random_11",
+      "dontstravemc:status/sanity_insane/sanity_random_12",
+      "dontstravemc:status/sanity_insane/sanity_random_13",
+      "dontstravemc:status/sanity_insane/sanity_random_14",
+      "dontstravemc:status/sanity_insane/sanity_random_15",
+      "dontstravemc:status/sanity_insane/sanity_random_16",
+      "dontstravemc:status/sanity_insane/sanity_random_17",
+      "dontstravemc:status/sanity_insane/sanity_random_18",
+      "dontstravemc:status/sanity_insane/sanity_random_19",
+      "dontstravemc:status/sanity_insane/sanity_random_20",
+      "dontstravemc:status/sanity_insane/sanity_random_21",
+      "dontstravemc:status/sanity_insane/sanity_random_22"
+    ]
+  },
+  "crazy_extra": {
+    "category": "players",
+    "sounds": [
+      "dontstravemc:status/sanity_insane/crazy_extra_1",
+      "dontstravemc:status/sanity_insane/crazy_extra_2"
+    ]
+  },
+  "charlie_warn": {
+    "category": "players",
+    "subtitle": "subtitle.dontstravemc.charlie_warn",
+    "sounds": [
+      "dontstravemc:charlie/warn/charlie_warn_1",
+      "dontstravemc:charlie/warn/charlie_warn_2",
+      "dontstravemc:charlie/warn/charlie_warn_3",
+      "dontstravemc:charlie/warn/charlie_warn_4"
+    ]
+  },
+  "charlie_bite": {
+    "category": "players",
+    "subtitle": "subtitle.dontstravemc.charlie_bite",
+    "sounds": [
+      "dontstravemc:charlie/attack/charlie_bite"
+    ]
+  },
+  "rabbit_scream": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.rabbit_scream",
+    "sounds": [
+      "dontstravemc:animal/rabbit/rabbit_scream_1",
+      "dontstravemc:animal/rabbit/rabbit_scream_2",
+      "dontstravemc:animal/rabbit/rabbit_scream_3",
+      "dontstravemc:animal/rabbit/rabbit_scream_4"
+    ]
+  },
+  "rabbit_hop": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.rabbit_hop",
+    "sounds": [
+      "dontstravemc:animal/rabbit/bunnyhop_grass_1",
+      "dontstravemc:animal/rabbit/bunnyhop_grass_2"
+    ]
+  },
+  "music_dawn": {
+    "category": "music",
+    "sounds": [
+      { "name": "dontstravemc:dawn/dawn_150bpm_3.4time", "stream": true }
+    ]
+  },
+  "music_dusk": {
+    "category": "music",
+    "sounds": [
+      { "name": "dontstravemc:dusk/dusk_150bpm_3.4time", "stream": true }
+    ]
+  },
+  "music_fall_boss": {
+    "category": "music",
+    "sounds": [
+      { "name": "dontstravemc:fall_boss/don_t_starve_-_efs_4_4_160bpm", "stream": true },
+      { "name": "dontstravemc:fall_boss/don_t_starve_-_efs_4_4_160bpm_opera", "stream": true }
+    ]
+  },
+  "music_fall_danger": {
+    "category": "music",
+    "sounds": [
+      { "name": "dontstravemc:fall_danger/danger_remix_v3_1_172bpm_dst", "stream": true },
+      { "name": "dontstravemc:fall_danger/danger_remix_v3_2_172bpm_dst", "stream": true },
+      { "name": "dontstravemc:fall_danger/danger_remix_v3_3_172bpm_dst", "stream": true }
+    ]
+  },
+  "music_fall_danger_bed": {
+    "category": "music",
+    "sounds": [
+      { "name": "dontstravemc:fall_danger/danger_remix_v3_1_172bpm__opera", "stream": true }
+    ]
+  },
+  "music_fall_work": {
+    "category": "music",
+    "sounds": [
+      { "name": "dontstravemc:fall_work/working_remix_v1_172bpm_dst", "stream": true }
+    ]
+  },
+  "music_menu_dst": {
+    "category": "music",
+    "sounds": [
+      { "name": "dontstravemc:menu/dst_theme_loop", "stream": true }
+    ]
+  },
+  "mole_worm_death": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.mole_worm_death",
+    "sounds": [
+      { "name": "dontstravemc:animal/mole_worm/mole_death_1", "volume": 0.95 }
+    ]
+  },
+  "mole_worm_dig": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.mole_worm_dig",
+    "sounds": [
+      { "name": "dontstravemc:animal/mole_worm/mole_dig_1", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_dig_2", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_dig_3", "volume": 0.95 }
+    ]
+  },
+  "mole_worm_emerge": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.mole_worm_emerge",
+    "sounds": [
+      { "name": "dontstravemc:animal/mole_worm/mole_emerge_1", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_emerge_2", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_emerge_3", "volume": 0.95 }
+    ]
+  },
+  "mole_worm_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.mole_worm_hurt",
+    "sounds": [
+      { "name": "dontstravemc:animal/mole_worm/mole_hurt_1", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_hurt_2", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_hurt_3", "volume": 0.95 }
+    ]
+  },
+  "mole_worm_jump": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.mole_worm_jump",
+    "sounds": [
+      { "name": "dontstravemc:animal/mole_worm/mole_jump_1_-_copy", "volume": 0.95 }
+    ]
+  },
+  "mole_worm_pickup": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.mole_worm_pickup",
+    "sounds": [
+      { "name": "dontstravemc:animal/mole_worm/mole_pickup_1", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_pickup_2", "volume": 0.95 }
+    ]
+  },
+  "mole_worm_sniff": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.mole_worm_sniff",
+    "sounds": [
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_1", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_2", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_3", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_4", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_5", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_6", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_7", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_8", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_9", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_10", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_11", "volume": 0.95 },
+      { "name": "dontstravemc:animal/mole_worm/mole_sniff_12", "volume": 0.95 }
+    ]
+  },
+  "mole_worm_travel": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.mole_worm_travel",
+    "sounds": [
+      { "name": "dontstravemc:animal/mole_worm/mole_travel_lp", "stream": true, "volume": 0.5 }
+    ]
+  },
+  "pigman_ambient": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.pigman_ambient",
+    "sounds": [
+      "dontstravemc:neutral/pigman/pig_grunts_1",
+      "dontstravemc:neutral/pigman/pig_grunts_2",
+      "dontstravemc:neutral/pigman/pig_grunts_3",
+      "dontstravemc:neutral/pigman/pig_grunts_5",
+      "dontstravemc:neutral/pigman/pig_grunts_6",
+      "dontstravemc:neutral/pigman/pig_oink_1",
+      "dontstravemc:neutral/pigman/pig_oink_3"
+    ]
+  },
+  "pigman_eat": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.pigman_eat",
+    "sounds": [
+      "dontstravemc:neutral/pigman/pig_grunts_4"
+    ]
+  },
+  "pigman_attack": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.pigman_attack",
+    "sounds": [
+      "dontstravemc:neutral/pigman/pig_oink_2"
+    ]
+  },
+  "pigman_death": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.pigman_death",
+    "sounds": [
+      "dontstravemc:neutral/pigman/pig_death_1",
+      "dontstravemc:neutral/pigman/pig_death_2"
+    ]
+  },
+  "pigman_sleep": {
+    "category": "neutral",
+    "subtitle": "subtitle.dontstravemc.pigman_sleep",
+    "sounds": [
+      "dontstravemc:neutral/pigman/pig_sleep_1",
+      "dontstravemc:neutral/pigman/pig_sleep_2",
+      "dontstravemc:neutral/pigman/pig_sleep_3",
+      "dontstravemc:neutral/pigman/pig_sleep_4"
+    ]
+  },
+  "player_pickup_item": {
+    "category": "players",
+    "subtitle": "subtitle.dontstravemc.player_pickup_item",
+    "sounds": [
+      "dontstravemc:player/pickup_item"
+    ]
+  }
+}
